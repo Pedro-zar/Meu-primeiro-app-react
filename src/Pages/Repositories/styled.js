@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { Link } from 'react-router-dom';
 
 export const Title = styled.h1`
   text-align: center;
@@ -23,4 +24,16 @@ export const Container = styled.div`
   width: 100%;
   max-width: 991px;
   margin: 0 auto;
+`
+
+export const LinkHome = styled(Link)`
+  display: block;
+  width: 4rem;
+  text-align: center;
+  margin: 2 rem auto;
+  background-color #000;
+  padding: .5rem 0;
+  color: white;
+  border-radius: 1rem;
+  text-decoration: none;
 `
